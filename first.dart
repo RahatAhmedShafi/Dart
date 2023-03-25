@@ -45,22 +45,35 @@ void main(){
   /*var obj=new Value();
   print(obj.add(8, 8));
   */
-  var listname=[10,20,30,40];
-  listname.add(50);
+  var listno=[10,20,30,40];
+  listno.add(50);
+   print(listno);
+  //listno.replaceRange(0, 3, [1,2,3]);
+ 
   var name=[];
   name.add("Rahat");
   name.add("Ahhmed");
   name.add("Shafi");
-  print(name);
+ // print(name);
   name[1]="Ahmed";  //UPDATE
+
   //name.add("Shafi");
- // name.addAll(listname);
+ // name.addAll(listno);
   //name.insert(1,"Ahmed");
   //name.insert(2,"Shafi");
- // name.insertAll(3,listname);
+ // name.insertAll(3,listno);
 
-  //print(listname);
-  print(name);
+  //print(listno);
+ // print(name);
+ //print(listno);
+
+ print("Length: ${listno.length}");
+ print("Reversed:${listno.reversed}");
+ print("First:${listno.first}");
+ print("Last:${listno.last}");
+ print("isEmty:${listno.isEmpty}");
+ print("isNotEmty:${listno.isNotEmpty}");
+ print("2nd element:${listno.elementAt(2)}");
     
 }
 
