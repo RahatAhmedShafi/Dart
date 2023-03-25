@@ -25,6 +25,8 @@ void main(){
  std.man();
  */
 
+
+
 // Function calling 
  /*var mc=new Human();
   mc.Man("Rahat");
@@ -45,6 +47,10 @@ void main(){
   /*var obj=new Value();
   print(obj.add(8, 8));
   */
+
+
+
+  /*       //LIST IN DART
   var listno=[10,20,30,40];
   listno.add(50);
    print(listno);
@@ -74,6 +80,23 @@ void main(){
  print("isEmty:${listno.isEmpty}");
  print("isNotEmty:${listno.isNotEmpty}");
  print("2nd element:${listno.elementAt(2)}");
+ */
+
+  //HASH_MAPS
+
+  var map_name={
+    "key1":"value1",
+    "key2":2,
+    "key3":3.0,
+    "key4":true,
+
+
+  };
+  print(map_name);
+  map_name["key1"]="Rahat";
+  print (map_name['key2']);
+  
+  
     
 }
 
