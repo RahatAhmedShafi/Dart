@@ -94,6 +94,7 @@ void main(){
   };
   print(map_name);
   map_name["key1"]="Rahat";
+  print(map_name);
   print (map_name['key2']);
   
   
