@@ -45,6 +45,22 @@ void main(){
   /*var obj=new Value();
   print(obj.add(8, 8));
   */
+  var listname=[10,20,30,40];
+  listname.add(50);
+  var name=[];
+  name.add("Rahat");
+  name.add("Ahhmed");
+  name.add("Shafi");
+  print(name);
+  name[1]="Ahmed";  //UPDATE
+  //name.add("Shafi");
+ // name.addAll(listname);
+  //name.insert(1,"Ahmed");
+  //name.insert(2,"Shafi");
+ // name.insertAll(3,listname);
+
+  //print(listname);
+  print(name);
     
 }
 
