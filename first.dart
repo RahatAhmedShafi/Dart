@@ -92,10 +92,29 @@ void main(){
 
 
   };
-  print(map_name);
-  map_name["key1"]="Rahat";
-  print(map_name);
-  print (map_name['key2']);
+  //print(map_name);
+  //map_name["key1"]="Rahat";
+  //print(map_name);
+  //print (map_name['key2']);
+
+  var mapName=Map();
+  mapName["name"]="Rahat";
+  mapName["YearsOfExperience"]=2;
+  mapName["Avg"]=21.09;
+  mapName["CanLocateToOffice"]=false;
+
+  print(mapName.isEmpty);
+  print(mapName.isNotEmpty);
+  print(mapName.keys);
+  print(mapName.length);
+  print(mapName.values);
+  print(mapName.containsValue(2));
+  print(mapName.remove("CanLocateToOffice"));
+  print(mapName);
+
+
+
+  
   
   
     
